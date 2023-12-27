@@ -7,13 +7,13 @@ Este projeto foi desenvolvido como parte do Desafio de Programação Orientada a
 
 ## Funcionalidades Implementadas
 
-Classe Abstrata "Smartphone"
+# Classe Abstrata "Smartphone"
 
 A classe Smartphone foi definida como abstrata, servindo como um modelo genérico para celulares.
 
 Contém o método abstrato InstalarAplicativo, que deve ser implementado nas classes derivadas.
 
-Classes Derivadas "Nokia" e "Iphone"
+# Classes Derivadas "Nokia" e "Iphone"
 
 As classes Nokia e Iphone são classes filhas de Smartphone, representando diferentes marcas de celulares.
 
