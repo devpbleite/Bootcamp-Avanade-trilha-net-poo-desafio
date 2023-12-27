@@ -1,22 +1,42 @@
 # DIO - Trilha .NET - Programação orientada a objetos
 www.dio.me
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+## Descrição do Projeto
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+Este projeto foi desenvolvido como parte do Desafio de Programação Orientada a Objetos na trilha .NET da Digital Innovation One (DIO). O objetivo é criar um sistema que modele celulares de diferentes marcas e modelos usando conceitos de orientação a objetos.
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+## Funcionalidades Implementadas
 
-![Diagrama classes](Imagens/diagrama.png)
+Classe Abstrata "Smartphone"
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+A classe Smartphone foi definida como abstrata, servindo como um modelo genérico para celulares.
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Contém o método abstrato InstalarAplicativo, que deve ser implementado nas classes derivadas.
+
+Classes Derivadas "Nokia" e "Iphone"
+
+As classes Nokia e Iphone são classes filhas de Smartphone, representando diferentes marcas de celulares.
+
+Cada classe implementa o método InstalarAplicativo de maneira específica, refletindo as diferenças na instalação de aplicativos entre as marcas.
+
+Diagrama de Classes
+
+## Como Usar
+
+Clone o repositório:
+
+<code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code>
+
+Abra o projeto no ambiente de desenvolvimento .NET.
+
+Execute o programa e observe o comportamento dos celulares Nokia e iPhone.
+
+<code>dotnet run</code>
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir bugs ou adicionar novas funcionalidades. Basta abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
